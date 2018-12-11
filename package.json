@@ -1,0 +1,27 @@
+{
+  "name": "crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./node_modules/typescript/bin/tsc && node ./.build/index.js",
+    "lint": "./node_modules/.bin/tslint ./src/jqKu/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarthaM1001/node-crawler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarthaM1001/node-crawler/issues"
+  },
+  "homepage": "https://github.com/MarthaM1001/node-crawler#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^10.12.12",
+    "tslint": "^5.11.0",
+    "typescript": "^3.2.2"
+  }
+}
